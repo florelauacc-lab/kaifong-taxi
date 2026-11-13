@@ -10,20 +10,23 @@
   <meta name="theme-color" content="#c8102e">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22%3E%3Crect width=%2248%22 height=%2248%22 rx=%2213%22 fill=%22%23c8102e%22/%3E%3Cpath d=%22M7.5 34.5 L9.8 20.2 L24 9.6 L38.2 20.2 L40.5 34.5 Z%22 fill=%22white%22/%3E%3Ctext x=%2224%22 y=%2231%22 text-anchor=%22middle%22 font-size=%2212.5%22 font-weight=%22900%22 fill=%22%23c8102e%22 font-family=%22sans-serif%22%3E%E7%9A%84%3C/text%3E%3Crect x=%226%22 y=%2237.3%22 width=%2236%22 height=%224.6%22 rx=%222.3%22 fill=%22%23d9dde2%22/%3E%3C/svg%3E">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261114a">
 </head>
 <body>
 <div class="stage">
-  <aside class="side-intro" aria-hidden="true">
+  <aside class="side-intro">
     <div class="side-logo">
       <svg viewBox="0 0 48 48" width="96" height="96" aria-hidden="true"><rect width="48" height="48" rx="13" fill="url(#lgRed)"/><path d="M4.5 35 L6 22 L24 9.5 L42 22 L43.5 35 Z" fill="#fff"/><text x="24" y="31.5" text-anchor="middle" font-size="10.5" font-weight="900" fill="#c8102e" font-family="PingFang HK, Noto Sans HK, sans-serif">街坊的</text><rect x="4" y="37.6" width="40" height="4.4" rx="2.2" fill="#d9dde2"/></svg>
       <div class="side-wordmark"><span>街坊的</span><small>Kaifong Taxi</small></div>
     </div>
     <p class="side-tag">屬於街坊的街坊的</p>
-    <p class="side-copy">一個街坊自發、唔收佣嘅 Call 的士 App。<br>師傅袋足車資，起步免費；夠 1,000 人先收每年 HK$30。</p>
-    <p class="side-copy en">The neighbourhood's own taxi app. No commission. Free to start; HK$30 a year from 1,000 users.</p>
-    <div class="side-stats"><div><b>0%</b><span>佣金</span></div><div><b>$0</b><span>起步免費</span></div><div><b>100%</b><span>車資歸師傅</span></div></div>
-    <p class="side-hint">用手機打開，體驗更好 · Best on your phone</p>
+    <h1 class="side-title" id="sideTitle"></h1>
+    <p class="side-copy" id="sideCopy"></p>
+    <div class="side-cta" id="sideCta"></div>
+    <div class="side-stats" id="sideStats"></div>
+    <div class="side-feats" id="sideFeats"></div>
+    <div class="side-join" id="sideJoin"></div>
+    <p class="side-hint" id="sideHint"></p>
   </aside>
   <div class="app-shell">
   <div class="demo-banner" data-t="demoBanner">示範版：未係真服務，資料係假嘅</div>
@@ -535,10 +538,10 @@
 </div><!-- /stage -->
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="config.js"></script>
-  <script src="data.js"></script>
-  <script src="places-hk.js"></script>
-  <script src="app.js"></script>
+  <script src="config.js?v=20261114a"></script>
+  <script src="data.js?v=20261114a"></script>
+  <script src="places-hk.js?v=20261114a"></script>
+  <script src="app.js?v=20261114a"></script>
   <div id="payShow" class="pay-show hidden"></div>
 </body>
 </html>

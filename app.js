@@ -28,16 +28,16 @@
       demoBanner: "示範版：未係真服務，資料係假嘅",
       taglineTxt: "屬於街坊的街坊的", driverTop: "陳師傅 · TX 2468", driverChan: "陳師傅", levelBadge: "好師傅 ★★★",
       heroTitle: "走遍全港，街坊幫街坊",
-      heroLead: "一個街坊自發、唔收佣嘅 Call 的士 App。師傅袋足車資；乘客實況等候、冇隱藏收費。起步完全免費，夠 1,000 個街坊先收每年 HK$30 年費。",
+      heroLead: "唔抽佣嘅街坊 Call 的士 App：師傅袋足車資，乘客冇隱藏收費。起步免費。",
       tryRider: "乘客版 Demo", tryDriver: "師傅版 Demo",
-      statComm: "佣金", statFee: "起步免費", statFare: "車資歸師傅", statNote: "夠 1,000 個街坊先收年費：每年 HK$30，頭 500 位街坊第一年免費",
+      statComm: "佣金", statFee: "起步免費", statFare: "車資歸師傅", statNote: "夠 1,000 個街坊先收每年 HK$30；頭 500 位第一年免費",
       storyTitle: "點解有街坊的？",
-      story1: "香港本地嘅 Call 的士 App，一個接一個俾大公司收購，之後停止服務，或者已經宣布會停運。",
-      story2: "有啲平台向師傅抽佣，有啲向乘客加平台費。師傅賺少咗，乘客俾多咗，大家都輸。我哋仲冇得揀。",
-      story3: "所以我想整一個大家都用得、樣樣透明嘅 App：唔抽佣、唔加價、規則公開。",
+      story1: "我係一個普通乘客，唔係呢行嘅人。試過叫極都冇車，又試過覺得俾人兜路，自己揀唔到行邊條路。",
+      story2: "本地 Call 的士 App 一個個俾人收購、停運，飛的年尾都會收。我哋嘅選擇越嚟越少。",
+      story3: "所以我呢個小薯仔學 vibe coding，整咗「街坊的」：唔抽佣、規則公開、街坊幫街坊。",
       painTitle: "你嘅煩惱，街坊的點解決", painRiderTab: "🙋 乘客", painDriverTab: "🚕 師傅",
       whyRiderTitle: "乘客",
-      whyR1: "起步免費，冇每程收費；夠 1,000 人先收每年 HK$30 年費。想慳啲仲可以出價：免附加費、免寵物費、折扣",
+      whyR1: "起步免費，冇每程收費；想慳可以出價八五折、免附加費",
       whyR2: "講你嘅語言：打字或者直接講，自動翻譯，用廣東話讀畀師傅聽",
       whyR3: "揀幾時準備好，實況等候時間，唔會「保證」呃你",
       whyR4: "長者、BB 車、輪椅、行李多？一撳就話畀師傅知",
@@ -45,7 +45,7 @@
       whyDriverTitle: "師傅",
       whyD1: "0% 佣金：車資、$5 電召附加費同小費全歸你",
       whyD2: "第一年免年費；頭 100 位師傅永久免費",
-      whyD3: "交更順路單、淡市預約單，接短途有優先獎賞",
+      whyD3: "交更順路單、淡市預約單；短途有獎賞",
       whyD4: "全部廣東話讀出，唔使打字；收入同獎賞一目了然",
       joinDriver: "我係師傅，想了解 →",
       featTitle: "街坊的特色",
@@ -70,6 +70,7 @@
       etaBusy: "陳師傅送緊上一位乘客去{p}，落客後過嚟，約 {m} 分鐘到你度（地圖見到路線）",
       optRoute: "路線", optWhen: "時間", optPeople: "人數 · 行李", optNeeds: "車款同需要", optSave: "想慳啲？出個價", optPay: "俾錢", optFare: "車資同小費", optPreview: "車資明細",
       valNone: "冇特別", valMeter: "跟錶", valNow: "而家", valLater: "預約", valPax: "{n} 人", valBags: "{n} 件行李", valMore: "+{n} 項", valTip: "小費 ${n}", barPick: "揀咗目的地就見到車資",
+      sideRider: "試乘客版", sideDriver: "試師傅版", sideSoon: "登記即將開放", sideHint: "用電腦都睇得；用手機打開，體驗更好",
       locBtn: "目前位置", locFinding: "搵緊你嘅位置…", locDenied: "攞唔到你嘅位置，可以直接打地址", locAway: "你而家唔喺香港，示範用 IFC 做目前位置", locLabel: "目前位置",
       addAgreed: "已傾掂", addChanged: "同訂單唔同，乘客會見到", addLocked: "乘客出價免咗，唔可以加",
       spendTitle: "車費紀錄", spendMonth: "今個月", spendYear: "今年", spendAvg: "平均每程", spendSaved: "出價慳咗", spendTrips: "{n} 程",
@@ -232,20 +233,14 @@
         ["傷健友善", "輪椅、導盲犬，都照顧到"]
       ],
       painsRider: [
-        ["App 話「3 分鐘到」，結果等咗 15 分鐘", "實況：真實等候時間同師傅實時位置，唔會「保證」"],
-        ["師傅接咗單又取消，或者拒載", "接單前已睇到目的地；取消有規則；俾人取消多次有「穩陣模式」優先配對"],
-        ["平台費、附加費越嚟越多", "冇每程平台費（只有每年 HK$30 年費）；可以出價「免附加費」，願意嘅師傅會接；每項附加費都列明"],
-        ["講唔清地址，師傅唔識路", "大部分大廈都搵到；師傅睇到中文路名同等候位置；「畀師傅睇」地址卡"],
-        ["四五點交更，叫極都冇車", "交更順路：順路嘅師傅優先載你；仲可以預約"],
-        ["驚俾人兜路、濫收", "行程有記錄，落車前確認咪錶車資，有問題一撳報告"]
+        ["叫極都冇車", "實況等候時間同師傅位置；交更順路嘅師傅優先載你"],
+        ["驚俾人兜路", "上車前自己揀路線，有實時路況；行程有記錄"],
+        ["落車先知要加錢", "落車前計好車資，附加費逐項列明；想慳可以出價八五折"]
       ],
       painsDriver: [
-        ["平台抽佣，又向客人加錢，生意越做越難", "0% 佣金，車資同 $5 電召附加費全歸你；客人冇每程收費"],
-        ["淡市兜圈空車", "預約單（覆診、機場、街坊）幫你填淡市"],
-        ["客人放飛機", "等候寬限有計時，放飛機有記錄，你可以封鎖"],
-        ["俾人投訴，有口難言", "GPS 行程記錄保護你"],
-        ["交更要趕返去，又唔想空車", "交更模式：淨係派順路單"],
-        ["App 規則黑盒，唔知點解冇單", "派單規則公開，冇秘密分數；唔接單唔扣分"]
+        ["平台抽佣，生意越做越難", "0% 佣金：車資、電召附加費同小費全歸你"],
+        ["淡市兜圈空車", "預約單填淡市；就快落客，App 派埋下一單"],
+        ["規則黑盒，唔知點解冇單", "派單規則公開；唔接單唔扣分"]
       ],
       panels: {
         schedTitle: "我嘅預約", newSched: "＋ 新預約",
@@ -316,16 +311,16 @@
       demoBanner: "Demo only: not a live service, all data is fake",
       taglineTxt: "Hail a neighbour", driverTop: "Driver Chan · TX 2468", driverChan: "Driver Chan", levelBadge: "Top Driver ★★★",
       heroTitle: "Every street, every ride, neighbours side by side",
-      heroLead: "A taxi app run by neighbours, for neighbours. No commission, so drivers keep every dollar. No surprise charges and no made-up wait times for riders. Free to start; HK$30 a year once we hit 1,000 users.",
+      heroLead: "A no-commission taxi app run by neighbours. Drivers keep every dollar; riders get no hidden charges. Free to start.",
       tryRider: "Passenger demo", tryDriver: "Driver demo",
-      statComm: "commission", statFee: "free to start", statFare: "of the fare to the driver", statNote: "The subscription starts at 1,000 users: HK$30 a year, and the first 500 people to sign up get their first year free",
+      statComm: "commission", statFee: "free to start", statFare: "of the fare to the driver", statNote: "HK$30 a year from 1,000 users; the first 500 get year one free",
       storyTitle: "Why 街坊的?",
-      story1: "One by one, Hong Kong's local taxi apps have been bought up by a big company, then shut down or set to close.",
-      story2: "Some platforms take a cut from drivers; some add platform fees for passengers. Drivers earn less, passengers pay more, everyone loses. And we have no choice.",
-      story3: "So I'm building an app everyone can use, where everything is transparent: no commission, no mark-ups, open rules.",
+      story1: "I'm an everyday passenger, not from the taxi trade. I've waited ages for a cab that never came, and felt taken the long way round with no say in the route.",
+      story2: "Local taxi apps keep getting bought up and shut down, and FlyTaxi closes at the end of the year. Our choices keep shrinking.",
+      story3: "So this small potato started vibe coding and built 街坊的: no commission, open rules, neighbours helping neighbours.",
       painTitle: "What drives you mad, and what we did about it", painRiderTab: "🙋 Passengers", painDriverTab: "🚕 Drivers",
       whyRiderTitle: "Passengers",
-      whyR1: "Free to start and nothing to pay per trip; a HK$30 yearly subscription begins at 1,000 users. You can also offer to pay less: no surcharges, no pet fee, or a discount",
+      whyR1: "Free to start, nothing to pay per trip, and you can offer 15% off or no surcharges",
       whyR2: "Use your own language: type or just speak, and it's translated and read to your driver in Cantonese",
       whyR3: "Say when you'll be ready and see real wait times, never a fake \"guarantee\"",
       whyR4: "Travelling with an older person, a stroller, a wheelchair or lots of bags? Tell your driver in one tap",
@@ -358,6 +353,7 @@
       etaBusy: "Driver Chan is dropping off another passenger at {p}, then coming to you: about {m} min (route on the map)",
       optRoute: "Route", optWhen: "When", optPeople: "People & bags", optNeeds: "Taxi & needs", optSave: "Pay less? Make an offer", optPay: "Payment", optFare: "Fare & tip", optPreview: "Fare details & driver card",
       valNone: "None", valMeter: "Meter", valNow: "Now", valLater: "Booked", valPax: "{n} people", valBags: "{n} bags", valMore: "+{n} more", valTip: "tip ${n}", barPick: "Pick a destination to see the fare",
+      sideRider: "Try the passenger app", sideDriver: "Try the driver app", sideSoon: "Sign-up opening soon", sideHint: "Works on a computer; even better on your phone",
       locBtn: "Current location", locFinding: "Finding where you are…", locDenied: "Couldn't get your location, so please type the address", locAway: "You're not in Hong Kong right now, so the demo uses IFC as your location", locLabel: "Current location",
       addAgreed: "agreed", addChanged: "differs from the order; the passenger will see this", addLocked: "waived in the passenger's offer, can't be added",
       spendTitle: "What you've spent", spendMonth: "This month", spendYear: "This year", spendAvg: "Average per trip", spendSaved: "Saved with offers", spendTrips: "{n} trips",
@@ -518,20 +514,14 @@
         ["Accessible", "Wheelchairs, guide dogs and more"]
       ],
       painsRider: [
-        ["The app said \"3 minutes\", then you waited 15", "實況: real wait times and the driver's live position, never \"guaranteed\""],
-        ["Drivers accept, then cancel, or refuse the trip", "Drivers see the destination before accepting; cancellation rules; \"Assured mode\" priority if you keep getting cancelled on"],
-        ["Platform fees and surcharges keep growing", "No per-trip platform fee (just a HK$30 yearly subscription); offer \"no surcharges\" and drivers who agree will take it; every surcharge listed"],
-        ["Hard to explain the address; the driver doesn't know it", "Most buildings are searchable; drivers see Chinese road names and your waiting spot; a \"Show to driver\" card"],
-        ["No taxis at 4–5pm shift change", "交更順路: drivers heading your way get matched first; or book ahead"],
-        ["Worried about detours or overcharging", "Trip records, plus confirming the meter fare before you get out; report in one tap"]
+        ["Can't get a taxi", "Real wait times and your driver's position; drivers heading your way at shift change come first"],
+        ["Worried about detours", "Pick your route before the ride, with live traffic; every trip is recorded"],
+        ["Surprise charges at the end", "The fare is worked out before you get out, every extra listed; offer 15% off if you like"]
       ],
       painsDriver: [
-        ["Platforms take a cut and charge passengers extra", "0% commission; the fare and $5 booking surcharge are yours; passengers pay nothing per trip"],
-        ["Driving empty in quiet hours", "Pre-booked jobs (hospital, airport, neighbours) fill quiet times"],
-        ["Passenger no-shows", "A timed grace period, no-shows recorded, and you can block"],
-        ["Complaints you can't answer", "GPS trip records protect you"],
-        ["Rushing back for 交更 but don't want to drive empty", "交更 mode: only jobs on your way"],
-        ["Black-box rules: no idea why there are no jobs", "Open job-offer rules, no secret scores; declining never counts against you"]
+        ["Platforms take a cut", "0% commission: the fare, booking surcharge and tips are all yours"],
+        ["Empty cruising in quiet hours", "Bookings fill quiet hours, and your next job is lined up before drop-off"],
+        ["Black-box rules", "Dispatch rules are public, and saying no never costs you"]
       ],
       panels: {
         schedTitle: "My scheduled rides", newSched: "+ New booking",
@@ -818,7 +808,7 @@
     $$("h1[data-t], h2[data-t], .story-punch[data-t], .status-big[data-t]").forEach(phraseWrap);
     $$("[data-tab]").forEach(b => { const lbl = b.querySelector(".tab-lbl"); if (lbl) lbl.textContent = T[lang].tabs[b.dataset.tab]; });
     renderLaunch(); renderFees(); renderFeatures(); renderPains(); renderReadyNote(); renderNotes();
-    { const nn = $("#needNote"); if (nn) nn.placeholder = t("needNotePh"); } renderNearby(); renderPickupPoints(); { const lb = $("#locBtn"); if (lb) lb.innerHTML = ic("pin") + "<span>" + t("locBtn") + "</span>"; } if (typeof renderRoute === "function") renderRoute(); if (typeof renderPay === "function") renderPay(); if (typeof renderAfter === "function") renderAfter(); if (typeof updatePlanRows === "function") updatePlanRows(); if (typeof renderPayAccept === "function") renderPayAccept(); renderFareOptions(); updateQuote(); updateBookBtn();
+    { const nn = $("#needNote"); if (nn) nn.placeholder = t("needNotePh"); } renderNearby(); renderPickupPoints(); { const lb = $("#locBtn"); if (lb) lb.innerHTML = ic("pin") + "<span>" + t("locBtn") + "</span>"; } if (typeof renderRoute === "function") renderRoute(); if (typeof renderPay === "function") renderPay(); if (typeof renderSide === "function") renderSide(); if (typeof renderAfter === "function") renderAfter(); if (typeof updatePlanRows === "function") updatePlanRows(); if (typeof renderPayAccept === "function") renderPayAccept(); renderFareOptions(); updateQuote(); updateBookBtn();
     renderStars("#riderStars", "rider"); renderStars("#driverStars", "driver"); updateDriverStatus(); renderPanels(); if (typeof renderPayAccept === "function") renderPayAccept();
     $("#levelCard").innerHTML = t("levelCard");
     if (R.pickup) $("#pickupInput").value = `${R.pickup.zh} · ${R.pickup.en}`;
@@ -2163,6 +2153,20 @@
     const [side, act] = b.dataset.after.split(":");
     AFTER[side] = act === "undo" ? null : act; renderAfter();
   });
+
+  // ---------------- desktop landing panel beside the phone frame
+  function renderSide() {
+    const S = id => document.getElementById(id); if (!S("sideTitle")) return;
+    S("sideTitle").textContent = t("heroTitle");
+    S("sideCopy").textContent = t("heroLead");
+    S("sideCta").innerHTML = `<button class="btn btn-primary" data-side="rider">${ic("user")}<span>${t("sideRider")}</span></button><button class="btn side-ghost" data-side="driver">${ic("car")}<span>${t("sideDriver")}</span></button>`;
+    S("sideStats").innerHTML = [["0%", t("statComm")], ["$0", t("statFee")], ["100%", t("statFare")]].map(([b, s]) => `<div><b>${b}</b><span>${s}</span></div>`).join("");
+    S("sideFeats").innerHTML = T[lang].features.map(([n, d]) => `<div class="sf"><b>${n}</b><span>${d}</span></div>`).join("");
+    const link = (url, lbl) => url ? `<a class="side-link" href="${url}" target="_blank" rel="noopener">${lbl}</a>` : `<span class="side-link soon">${lbl.replace(/\s*→\s*$/, "")} · ${t("sideSoon")}</span>`;
+    S("sideJoin").innerHTML = link(CFG.riderFormUrl, t("joinRider")) + link(CFG.driverFormUrl, t("joinDriver"));
+    S("sideHint").textContent = t("sideHint");
+  }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-side]"); if (!b) return; go(b.dataset.side); });
 
   // ================================================================ boot
   buildPlanRows();
